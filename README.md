@@ -11,6 +11,9 @@ Given a folder containing unordered images, the <a href="CLIP_based_image_catego
 <br>
 </center>
 
-As impressive as the result of automatic categorization is, there are of course some limitations here. If you define labels that do not adequately represent the images you provide, the images will inevitably be categorized incorrectly. In other words, there is no support for a garbage class at the moment... 
+As impressive as the result of automatic categorization is, there are of course some limitations here. If you define labels that do not adequately represent the images you provide, the images will inevitably be categorized incorrectly. In other words, there is no support for a garbage class at the moment. 
+
+Another limitation is that the underlying model reflects the quality of the categorization. A weak model therefore leads to unfavorable results. Currently, the ```ViT-L/14``` model is used, which according to my experiments has led to the most reliable results so far. If you want to try out other models have a look at the 
+<a href="https://huggingface.co/openai">🤗 (Hugging Face) repo of Open AI</a>
 
 Happy categorizing!
