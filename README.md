@@ -1,5 +1,5 @@
 # CLIP Playground
-A collection of useful scripts that show the potential of Open AI's powerful multimodal model CLIP
+A collection of useful jupyter notebooks that show the potential of Open AI's powerful multimodal model CLIP
 
 ## CLIP-based image categorizer
 Given a folder containing unordered images, this script allows you to categorize all the images according to the labels you specify. 
