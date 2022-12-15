@@ -8,9 +8,9 @@ For example, imagine you have a folder with a bunch of photos of cats and frogs.
 
 <center>
 <div style="width:400px ; height:70%">
-  <img src="assets/image_categorizer/cats_frogs_classifier.jpg" width=70% height=70%>
+  <img src="assets/image_categorizer/cats_frogs_classifier.jpg" width=70% height=70% class="center">
 <div>
+<br><br>
 </center>
-  
-  
+    
 Happy categorizing!
