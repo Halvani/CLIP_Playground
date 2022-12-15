@@ -8,7 +8,7 @@ Given a folder containing unordered images, the <a href="CLIP_based_image_catego
 <div style="width:400px ; height:70%">
   <img src="assets/image_categorizer/cats_frogs_classifier.jpg" width=70% height=70% class="center">
 <div>
-<br><br>
+<br>
 </center>
 
 As impressive as the result of automatic categorization is, there are of course some limitations here. If you define labels that do not adequately represent the images you provide, the images will inevitably be categorized incorrectly. In other words, there is no support for a garbage class at the moment... 
