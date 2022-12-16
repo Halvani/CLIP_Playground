@@ -11,7 +11,12 @@ Given a folder containing unordered images, the <a href="CLIP_based_image_catego
 <br>
 </center>
 
-As impressive as the result of automatic categorization is, there are of course some limitations here. If you define labels that do not adequately represent the images you provide, the images will inevitably be categorized incorrectly. In other words, there is no support for a *garbage class* at the moment. In addition, the image categorizer accepts only English texts as input, since the underlying model has been trained only on such texts. Another limitation is that the underlying model reflects the quality of the categorization. A weak model therefore leads to unfavorable results. Currently, the <a href="https://huggingface.co/sentence-transformers/clip-ViT-L-14">ViT-L/14</a> model is used, which according to my experiments has led to the most reliable results so far. If you want to try out other models have a look at the 
-<a href="https://huggingface.co/openai">🤗 (Hugging Face) repo of Open AI</a>
+As impressive as the result of automatic categorization is, there are of course some **limitations** here: 
+
+* The main limitation is that the underlying model reflects the quality of the categorization. Consequently, a weak model leads to unfavorable results. Currently, the image categorizer makes use of the <a href="https://huggingface.co/sentence-transformers/clip-ViT-L-14">ViT-L/14 model</a>, which according to my experiments has led to the most reliable results so far. You can find other models at the <a href="https://huggingface.co/openai">🤗 (Hugging Face) repo of Open AI</a>
+
+* In addition, the image categorizer accepts only English texts as input, since the underlying ViT-L/14 model has been trained only on such texts. However, you can replace it with the <a href="https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1">multilingual clip-ViT-B-32 model</a>, but this comes at the expense of performance. 
+
+* Another limitation concerns the way you define the labels. When these do not adequately represent the images you provide, the images can be categorized incorrectly. In other words, there is currently no support for a <a href="https://discuss.huggingface.co/t/how-to-create-other-garbage-class-for-classifier-e-g-covid-19-classifier/4249">garbage class</a>.
 
 Happy categorizing!
