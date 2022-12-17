@@ -6,7 +6,7 @@ Given a folder containing unordered images, the <a href="CLIP_based_image_catego
 
 <center>
 <div style="width:400px ; height:70%">
-  <img src="assets/image_categorizer/cats_frogs_classifier.jpg" width=70% height=70% class="center">
+  <img src="assets/image_categorizer/cats_frogs_classifier.jpg" width=80% height=80% class="center">
 <div>
 <br>
 </center>
